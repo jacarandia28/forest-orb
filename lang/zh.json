@@ -53,7 +53,7 @@
       "players": {
         "tab": {
           "map": "当前地图",
-          "friends": "Friends",
+          "friends": "我的好友",
           "party": "我的队伍"
         }
       }
@@ -67,8 +67,8 @@
     },
     "modal": {
       "confirm": {
-        "ok": "OK",
-        "cancel": "Cancel"
+        "ok": "好的",
+        "cancel": "取消"
       },
       "login": {
         "title": "登录",
@@ -228,14 +228,14 @@
           "friends": {
             "label": "Friends",
             "fields": {
-              "add": "Friend Added",
-              "remove": "Friend Removed",
-              "accept": "Friend Request Accepted",
-              "reject": "Friend Request Rejected",
-              "cancel": "Friend Request Cancelled",
-              "incoming": "Incoming Friend Request",
-              "playerOnline": "Friend Online",
-              "playerOffline": "Friend Offline"
+              "add": "添加好友",
+              "remove": "删除好友",
+              "accept": "对方接受了您的好友申请",
+              "reject": "对方拒绝了您的好友申请",
+              "cancel": "您已取消发送好友申请",
+              "incoming": "您收到一份好友申请",
+              "playerOnline": "您的好友已上线",
+              "playerOffline": "您的好友已下线"
             }
           },
           "parties": {
@@ -515,14 +515,14 @@
       "unnamed": "无名子",
       "muted": "禁言中",
       "actions": {
-        "approveFriend": "Accept Friend Request",
-        "rejectFriend": "Reject Friend Request",
-        "cancelFriend": "Cancel Friend Request",
+        "approveFriend": "接受好友申请",
+        "rejectFriend": "拒绝好友申请",
+        "cancelFriend": "取消好友申请",
         "partyKick": "请出队伍",
         "transferPartyOwner": "转让领队"
       }
     },
-    "roles": {
+    "roles": { 
       "mod": "管理员",
       "dev": "开发者"
     },
@@ -535,10 +535,10 @@
         "label": "提及 {PLAYER}"
       },
       "addFriend": {
-        "label": "Friend {PLAYER}"
+        "label": "添加好友 {PLAYER}"
       },
       "removeFriend": {
-        "label": "Unfriend {PLAYER}"
+        "label": "删除好友 {PLAYER}"
       },
       "block": {
         "label": "拉黑 {PLAYER}",
@@ -688,12 +688,12 @@
         "playerUnblocked": "已解除拉黑 {PLAYER}"
       },
       "friends": {
-        "add": "You have sent a friend request to {PLAYER}.",
-        "remove": "You have removed {PLAYER} from your friends.",
-        "accept": "{PLAYER}'s friend request was accepted.",
-        "reject": "{PLAYER}'s friend request was rejected.",
-        "cancel": "Your friend request to {PLAYER} was cancelled.",
-        "incoming": "You have a new friend request from {PLAYER}.",
+        "add": "您已向 {PLAYER}发送了好友申请。",
+        "remove": "您已将 {PLAYER} 移出了好友列表。",
+        "accept": "{PLAYER}的好友申请被接受",
+        "reject": "{PLAYER}的好友请求被拒绝。",
+        "cancel": "您发送给 {PLAYER} 的好友申请已取消.",
+        "incoming": "您收到了来自 {PLAYER}的好友申请",
         "playerOnline": "{PLAYER} 已上线。",
         "playerOffline": "{PLAYER} 已下线。"
       },
